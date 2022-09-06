@@ -1,0 +1,39 @@
+{
+  "name": "webpack_vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zather <1195332157@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/plugin-proposal-decorators": "^7.19.0",
+    "@babel/plugin-transform-arrow-functions": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^7.0.1",
+    "style-loader": "^3.3.1",
+    "vue": "2.6.10",
+    "vue-loader": "15.9.8",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
